@@ -25,7 +25,7 @@ It as 2 arguments :
 ## Exemple of implementation: 
 
 ```
-import { Cacheable } from 'type-cacheable-dynamodb';
+import Cacheable from 'cacheable-methods-dynamodb';
 
 class TestClass {
   //one Day
