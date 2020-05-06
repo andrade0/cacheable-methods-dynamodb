@@ -1,6 +1,6 @@
 import { CacheClient } from '../interfaces';
 import moment = require("moment");
-import {DiggingDynamodbClient, DiggingDynamodbClientInterface} from "digging-dynamodb-client";
+import {DiggingDynamodbClient, DiggingDynamodbClientInterface} from "dynamodb-repository";
 
 class TableKey{
   cacheKey: string = '';

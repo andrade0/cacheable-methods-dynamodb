@@ -1,6 +1,6 @@
 {
   "name": "cacheable-methods-dynamodb",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "repository": {
     "type": "git",
     "url": "git://github.com/andrade0/cacheable-methods-dynamodb.git"
@@ -33,7 +33,7 @@
     "@types/aws-sdk": "^2.7.0",
     "@types/moment": "^2.13.0",
     "aws-sdk": "^2.659.0",
-    "digging-dynamodb-client": "^1.0.1",
+    "dynamodb-repository": "^1.0.1",
     "moment": "^2.24.0",
     "serialize-javascript": "^3.0.0"
   }
