@@ -1,6 +1,10 @@
 {
   "name": "cacheable-methods-dynamodb",
   "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/andrade0/cacheable-methods-dynamodb.git"
+  },
   "description": "TypeScript-based caching on dynamoDb decorators for classes methods",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
