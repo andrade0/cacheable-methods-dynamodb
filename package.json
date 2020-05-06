@@ -1,0 +1,36 @@
+{
+  "name": "cacheable-methods-dynamodb",
+  "version": "1.0.0",
+  "description": "TypeScript-based caching on dynamoDb decorators for classes methods",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "start": "tsc && node ./dist/index.js",
+    "build": "tsc",
+    "prepare": "npm run-script build"
+  },
+  "keywords": [
+    "cache",
+    "typescript",
+    "redis"
+  ],
+  "author": "Olivier Andrade",
+  "license": "MIT",
+  "homepage": "",
+  "devDependencies": {
+    "@types/node": "^13.7.0",
+    "@types/serialize-javascript": "^1.5.0",
+    "typescript": "^3.7.4"
+  },
+  "dependencies": {
+    "@types/aws-sdk": "^2.7.0",
+    "@types/moment": "^2.13.0",
+    "aws-sdk": "^2.659.0",
+    "digging-dynamodb-client": "^1.0.1",
+    "moment": "^2.24.0",
+    "serialize-javascript": "^3.0.0"
+  }
+}
