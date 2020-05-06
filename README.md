@@ -1,6 +1,6 @@
 #Install: 
 ```
-npm install cacheable-methods-dynamodb `
+npm install cacheable-methods-dynamodb
 ```
 
 
