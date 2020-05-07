@@ -1,4 +1,4 @@
-#@Cacheable(ttl, [tablename])
+#The decorator @Cacheable(ttl, [tablename])
 
 The Decorator for caching class methods data.
 
