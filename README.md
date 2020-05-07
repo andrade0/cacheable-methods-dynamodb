@@ -1,3 +1,7 @@
+#@Cacheable(ttl, [tablename])
+
+The Decorator for caching class methods data.
+
 #Install: 
 ```
 npm install cacheable-methods-dynamodb
